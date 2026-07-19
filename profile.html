@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile registration</title>
+    <style>
+    body {
+        background : #0f172a;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align:center;
+    }
+    h1{
+        color: #22c55e;
+    }
+    form{
+        background: #1e293b;
+        width: 550px;
+        margin: auto;
+        padding:25px;
+        border-radius: 12px;
+    }
+    input,select{
+    width:90%;
+    padding:10px;
+    margin:8px;
+    border-radius:6px;
+    border:none;
+}
+
+button{
+    background:#22C55E;
+    color:white;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+a{
+    color:#38BDF8;
+    font-size:20px;
+}
+li{
+    text-align: left;
+}
+
+    </style>
+</head>
+<body>
+    <a href="index.html" 
+ style="text-align: left;">Back to home</a>
+    <h1>👤Create User Profile</h1>
+    <p>Register your self and be productive.</p>
+    <form>
+        <h2>Enter your details</h2>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname:" name="lname"value=""><br>
+        <label for="email">Email:</label><br>
+        <input type="email"  name="email" id="email" value=""><br>
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password" value=""><br>
+        <label>Gender:</label><br>
+        <label for="male">Male</label><br>
+        <input type="radio" id="male" name="Gender" value="male"><br>
+        <label for="female">female</label><br>
+        <input type="radio" id="female" name="Gender" value="female"><br>
+        <select name="Profession" id="Profession">
+        <option value="">Student<option>
+        <option value="">Employee<option>
+        <option value="">other<option>
+        </select>
+        <br><br>
+        <label >What do you want to improve?</label><br>
+        <label for="productivity">Productivity</label>
+        <input type="checkbox" id="productivity" name="productivity" value="productivity">
+
+        <label for="focus">Focus</label><br>
+        <input type="checkbox" id="focus" name="focus" value="focus">
+        <input type="submit" value="submit">
+    </form>
+<h2 style="text-align: left;">How to start</h2>
+<ol styel="text-align: left;">
+    <li>Create a account</li>
+    <li>Add task</li>
+    <li>Complete daily challenges</li>
+</ol>
+<h2 style="text-align: left;">Moudles</h2>
+<ul style="text-align: left;">
+    <li>Daily challenges</li>
+    <li>Leaderboard</li>
+    <li>Xp and level system</li>
+</ul>
+<h2>Motivational video</h2>
+<iframe width="400" height="200" 
+src="https://youtu.be/GghmPtItGA4?si=0sk1GvaNNwo0f22G" 
+frameborder="5"
+allowfullscreen>
+</iframe>
+<a href="https://youtu.be/GghmPtItGA4?si=0sk1GvaNNwo0f22G" target="_blank">
+    Watch Motivational Video
+</a>
+
+</body>
+
+</html>
